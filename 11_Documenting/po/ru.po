@@ -1,0 +1,111 @@
+# Number guessing game
+# Copyright (C) 2021 Ilya Uvarkin
+# This file is distributed under the same license as the guess package.
+# Ilya Uvarkin <lyuha1504@yandex.ru>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guess 0.00\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-12 00:11+0300\n"
+"PO-Revision-Date: 2021-12-11 21:30+0300\n"
+"Last-Translator: Main User <lyuha1504@yandex.ru>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../guess.c:173
+#, c-format
+msgid "Usage: guess [OPTION...] \n"
+msgstr "Применение: guess [OPTION...] \n"
+
+#: ../guess.c:174
+#, c-format
+msgid ""
+"Program for guessing a number from 1 to 100 (arabian or roman digits) \n"
+msgstr ""
+"Программа для отгадывания числа от 1 до 100 (арабские или римские цифры) \n"
+
+#: ../guess.c:176
+#, c-format
+msgid "  -p, --print-help           Print help in another language (locale)"
+msgstr ""
+"  -p, --print-help           Напечатать справку на другом языке (локаль)"
+
+#: ../guess.c:178
+#, c-format
+msgid "  -r, --roman                Work with roman numbers instead of arabian"
+msgstr ""
+"  -r, --roman                Работать с римскими цифрами, а не арабскими"
+
+#: ../guess.c:180
+#, c-format
+msgid "  -?, --help                 Give this help list \n"
+msgstr "  -?, --help                 Напечатать эту справку \n"
+
+#: ../guess.c:181
+#, c-format
+msgid "      --usage                Give a short usage message \n"
+msgstr "      --usage                Выдать короткое сообщение о применении \n"
+
+#: ../guess.c:182
+#, c-format
+msgid "  -V, --version              Print program version \n"
+msgstr "  -V, --version              Напечатать версию программы \n"
+
+#: ../guess.c:184
+#, c-format
+msgid "Report bugs to lyuha1504@yandex.ru. \n"
+msgstr "О багах сообщайте по адресу lyuha1504@yandex.ru. \n"
+
+#: ../guess.c:192
+msgid "yes"
+msgstr "да"
+
+#: ../guess.c:193
+msgid "no"
+msgstr "нет"
+
+#: ../guess.c:196
+#, c-format
+msgid "Pick any number from 1 to 100 and press ENTER "
+msgstr "Загадайте любое число от 1 до 100 и нажмите ВВОД"
+
+#: ../guess.c:197
+#, c-format
+msgid "(roman digits)\n"
+msgstr "(римские цифры)\n"
+
+#: ../guess.c:197
+#, c-format
+msgid "(arabian digits)\n"
+msgstr "(арабские цифры)\n"
+
+#: ../guess.c:202
+#, c-format
+msgid "Is your number larger than "
+msgstr "Ваше число больше "
+
+#: ../guess.c:208
+#, c-format
+msgid " (yes/no)? : "
+msgstr " (да/нет)? : "
+
+#: ../guess.c:211
+#, c-format
+msgid "The input is incorrect, try again\n"
+msgstr "Некорректный ввод, попробуйте еще раз\n"
+
+#: ../guess.c:217
+#, c-format
+msgid "The answer is in the wrong form, try again\n"
+msgstr "Ответ дан в неверной форме, попробуйте еще раз\n"
+
+#: ../guess.c:222
+#, c-format
+msgid "Your number is "
+msgstr "Ваше число равно "
